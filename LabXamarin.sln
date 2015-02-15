@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Server", "1-Server", "{EAC9B13C-2BD9-48D6-BD86-250D8D62B608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabXamarin.Server", "src\LabXamarin.Server\LabXamarin.Server.csproj", "{BB25486B-4253-4BC6-9082-1E4F5731C760}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Client", "2-Client", "{85EBCD8D-0196-4082-8F38-3C83CA764061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Common", "3-Common", "{9A70688E-A12E-4E88-AE1A-24DA60411047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabXamarin.Models", "src\LabXamarin.Models\LabXamarin.Models.csproj", "{18772761-EF46-41C3-9EE7-766CCB55BD5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabXamarin.Services.Implements", "src\LabXamarin.Services.Implements\LabXamarin.Services.Implements.csproj", "{7A27B9D4-CAAB-46BD-B199-D26A2A6E8A1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabXamarin.Services", "src\LabXamarin.Services\LabXamarin.Services.csproj", "{52609F3A-5B91-4D9A-B60E-B087C6859465}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18772761-EF46-41C3-9EE7-766CCB55BD5E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18772761-EF46-41C3-9EE7-766CCB55BD5E}.Debug|x86.Build.0 = Debug|Any CPU
+		{18772761-EF46-41C3-9EE7-766CCB55BD5E}.Release|x86.ActiveCfg = Release|Any CPU
+		{18772761-EF46-41C3-9EE7-766CCB55BD5E}.Release|x86.Build.0 = Release|Any CPU
+		{52609F3A-5B91-4D9A-B60E-B087C6859465}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52609F3A-5B91-4D9A-B60E-B087C6859465}.Debug|x86.Build.0 = Debug|Any CPU
+		{52609F3A-5B91-4D9A-B60E-B087C6859465}.Release|x86.ActiveCfg = Release|Any CPU
+		{52609F3A-5B91-4D9A-B60E-B087C6859465}.Release|x86.Build.0 = Release|Any CPU
+		{7A27B9D4-CAAB-46BD-B199-D26A2A6E8A1F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7A27B9D4-CAAB-46BD-B199-D26A2A6E8A1F}.Debug|x86.Build.0 = Debug|Any CPU
+		{7A27B9D4-CAAB-46BD-B199-D26A2A6E8A1F}.Release|x86.ActiveCfg = Release|Any CPU
+		{7A27B9D4-CAAB-46BD-B199-D26A2A6E8A1F}.Release|x86.Build.0 = Release|Any CPU
+		{BB25486B-4253-4BC6-9082-1E4F5731C760}.Debug|x86.ActiveCfg = Debug|x86
+		{BB25486B-4253-4BC6-9082-1E4F5731C760}.Debug|x86.Build.0 = Debug|x86
+		{BB25486B-4253-4BC6-9082-1E4F5731C760}.Release|x86.ActiveCfg = Release|x86
+		{BB25486B-4253-4BC6-9082-1E4F5731C760}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB25486B-4253-4BC6-9082-1E4F5731C760} = {EAC9B13C-2BD9-48D6-BD86-250D8D62B608}
+		{18772761-EF46-41C3-9EE7-766CCB55BD5E} = {9A70688E-A12E-4E88-AE1A-24DA60411047}
+		{7A27B9D4-CAAB-46BD-B199-D26A2A6E8A1F} = {9A70688E-A12E-4E88-AE1A-24DA60411047}
+		{52609F3A-5B91-4D9A-B60E-B087C6859465} = {9A70688E-A12E-4E88-AE1A-24DA60411047}
+	EndGlobalSection
+EndGlobal
